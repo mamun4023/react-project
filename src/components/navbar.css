@@ -1,0 +1,31 @@
+
+.link{
+    color: black;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.login-icon{
+    font-size: 25px;
+    color: black;
+}
+
+.nav-link{
+    color: black;
+}
+
+/* active */
+.nav-pills .nav-item .active{
+    background-color:  #009900
+}
+
+.helpline {
+    height: 300px;
+}
+
+.logo {
+    height: 50px;
+}
