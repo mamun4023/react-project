@@ -27,7 +27,7 @@
 
 /* Banner Component styling */
 .banner-image{
-    background-image: url("./components//images/backimage.jpg");
+    background-image: url("./images/backimage.jpg");
     background-repeat: no-repeat;
     width: 100%;
     height: 400px;
@@ -70,10 +70,28 @@
 
 
 /* event component styling */
-.flex-container{
-    display: flex;
-    flex-direction: row;
+.swiper-container {
+    width: 100%;
+    height: 200px;
+ 
+  }
+
+  .swiper-button-prev {
+      background-color:black;
+      border-radius: 50%;
+      height: 70px;
+      width: 40px;
+      color:  white
+  }
+  .swiper-button-next {
+    background-color:black;
+    border-radius: 50%;
+    height: 70px;
+    width: 40px;
+    color :  white;
 }
+
+
 
 
 /* gallery component styling */

@@ -17,11 +17,8 @@ class App extends Component{
       <>
            
 
-
-           
-
           <BrowserRouter>
-          <Navbar/>
+            <Navbar/>
 
             
               <Route exact path = "/" component = {Home} />
@@ -31,11 +28,8 @@ class App extends Component{
               <Route  path = "/department" component = {Department} />
               <Route  path = "/contact" component = {Contact} />
 
-            
-       
-
       
-              <Footer/>
+            <Footer/>
           </BrowserRouter>
 
       </>

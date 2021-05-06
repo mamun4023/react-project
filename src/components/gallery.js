@@ -1,12 +1,12 @@
 import React from "react";
-import GalleryImage1 from './images/gallery1.png'
-import GalleryImage2 from './images/gallery2.png'
-import GalleryImage3 from './images/gallery3.png'
-import GalleryImage4 from './images/gallery4.png'
-import GalleryImage5 from './images/gallery5.png'
-import GalleryImage6 from './images/gallery6.png'
-import GalleryImage7 from './images/gallery7.png'
-import GalleryImage8 from './images/gallery8.png'
+import GalleryImage1 from  "../images/gallery/gallery1.png"
+import GalleryImage2 from "../images/gallery/gallery2.png"
+import GalleryImage3 from "../images/gallery/gallery3.png"
+import GalleryImage4 from "../images/gallery/gallery4.png"
+import GalleryImage5 from "../images/gallery/gallery5.png"
+import GalleryImage6 from "../images/gallery/gallery6.png"
+import GalleryImage7 from "../images/gallery/gallery7.png"
+import GalleryImage8 from "../images/gallery/gallery8.png"
 
 
 

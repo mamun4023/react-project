@@ -1,6 +1,6 @@
 import React from 'react';
-import IndustryPic from './images/industry.png'
-import ChairmanPic from './images/chairman.png'
+import IndustryPic from "../images/about/industry.png"
+import ChairmanPic from '../images/about/chairman.png'
 
 
 

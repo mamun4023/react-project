@@ -1,4 +1,5 @@
 import React from 'react';
+import Image1 from '../images/apps.png';
 
 
 
@@ -7,7 +8,7 @@ const Playstore = ()=> {
         <>
 
           <div className = "jumbotron m-0">
-                <div className  = "container p-5">
+                <div className  = "container p-5 bg-white">
                     <div className = "row ">
                         <div className = "col-md">
                         <h4> Download Our Mobile App </h4>
@@ -21,7 +22,7 @@ const Playstore = ()=> {
 
 
                         <div className = "col-md">
-                               <img src = "" />
+                               <img className = "img-fluid" src =  {Image1} />
                         </div>
 
                     </div>

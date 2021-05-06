@@ -13,7 +13,7 @@ const  Home = ()=>{
 
     return(
         <>  
-            
+               
                 <Banner/>
                 <Playstore />
                 <Events />

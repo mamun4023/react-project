@@ -1,6 +1,6 @@
 import React from 'react';
-import Logo from "./images/logo.png";
-import Helpline from './images/helpline.png'
+import Logo from "../images/logo/logo.png";
+import Helpline from '../images/helpline.png'
 
 const Footer = ()=> {
 
