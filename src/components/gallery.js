@@ -1,5 +1,4 @@
 import React from "react";
-import "./gallary.css";
 import GalleryImage1 from './images/gallery1.png'
 import GalleryImage2 from './images/gallery2.png'
 import GalleryImage3 from './images/gallery3.png'

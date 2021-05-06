@@ -1,7 +1,7 @@
 import React from 'react';
 import IndustryPic from './images/industry.png'
 import ChairmanPic from './images/chairman.png'
-import './about.css'
+
 
 
 const About = ()=> {

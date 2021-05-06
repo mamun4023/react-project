@@ -1,7 +1,6 @@
 import React from 'react';
 import Logo from "./images/logo.png";
 import Helpline from './images/helpline.png'
-import './footer.css';
 
 const Footer = ()=> {
 
