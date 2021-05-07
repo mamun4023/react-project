@@ -14,43 +14,39 @@ import slideImage9 from '../images/event/9.jpg';
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination, Scrollbar } from 'swiper';
+import SwiperCore, { Navigation, Scrollbar } from 'swiper';
 
-// include swiper css
-import "swiper/swiper-bundle.min.css"
+// Import Swiper styles
+import "swiper/swiper.min.css";
+import "swiper/components/zoom/zoom.min.css"
 import "swiper/components/navigation/navigation.min.css"
-import "swiper/components/scrollbar/scrollbar.min.css"
+import "swiper/components/pagination/pagination.min.css"
 
 
-SwiperCore.use([Navigation, Scrollbar ]);
+SwiperCore.use([Navigation ]);
 
  const Events =  () => {
   return (
       <>
-         <div className = "jumbotron m-0">
-            <h3 className = "text-center p-5"> <b> All Events </b> </h3>
-         
+         <div className = "jumbotron m-0 py-0">
+            <h3 className = "text-center "> <b> All Events </b> </h3>
          <div  className = "swiper-container" >
          <Swiper
-            slidesPerView = {3}
-            spaceBetween = {50}
-            navigation = {true}
-            scrollbar = {{"hide": true}}
-            className="mySwiper"
-            
+             slidesPerView = {3}
+             spaceBetween = {10}
+             navigation = {true}
+             className="mySwiper"
          >
-             <SwiperSlide className = "swiper-slide"> <img src = {slideImage1} />  </SwiperSlide>
-             <SwiperSlide className = "swiper-slide" > <img src = {slideImage2} />  </SwiperSlide>
-             <SwiperSlide className = "swiper-slide" > <img src = {slideImage3} />  </SwiperSlide>
-             <SwiperSlide className = "swiper-slide" > <img src = {slideImage4} />  </SwiperSlide>
-             <SwiperSlide className = "swiper-slide" > <img src = {slideImage5} />  </SwiperSlide>
-             <SwiperSlide className = "swiper-slide" > <img src = {slideImage6} />  </SwiperSlide>
-             <SwiperSlide className = "swiper-slide" > <img src = {slideImage7} />  </SwiperSlide>
-             <SwiperSlide className = "swiper-slide" > <img src = {slideImage8} />  </SwiperSlide>
-             <SwiperSlide className = "swiper-slide" > <img src = {slideImage9} />  </SwiperSlide>
-
-
-
+       
+             <SwiperSlide className = "swiper-zoom-container"> <img className = "slide-image" src = {slideImage1} />  </SwiperSlide>
+             <SwiperSlide className = "swiper-zoom-container" > <img className = "slide-image" src = {slideImage2} />  </SwiperSlide>
+             <SwiperSlide className = "swiper-zoom-container" > <img className = "slide-image" src = {slideImage3} />  </SwiperSlide>
+             <SwiperSlide className = "swiper-zoom-container" > <img className = "slide-image" src = {slideImage4} />  </SwiperSlide>
+             <SwiperSlide className = "swiper-zoom-container" > <img className = "slide-image" src = {slideImage5} />  </SwiperSlide>
+             <SwiperSlide className = "swiper-zoom-container" > <img className = "slide-image" src = {slideImage6} />  </SwiperSlide>
+             <SwiperSlide className = "swiper-zoom-container" > <img className = "slide-image" src = {slideImage7} />  </SwiperSlide>
+             <SwiperSlide className = "swiper-zoom-container" > <img className = "slide-image" src = {slideImage8} />  </SwiperSlide>
+             <SwiperSlide className = "swiper-zoom-container" > <img className = "slide-image" src = {slideImage9} />  </SwiperSlide>
 
          </Swiper>
          </div>
@@ -63,3 +59,6 @@ SwiperCore.use([Navigation, Scrollbar ]);
 
 
 export default Events;
+
+
+

@@ -7,7 +7,7 @@ function Navbar() {
     <>
       <nav className="navbar navbar  ">
         <a className="brand"> <img className = "img-fluid logo" src = {Logo} /> </a>
-        <ul class="nav nav-pills justify-content-end pill-color ">
+        <ul class="nav nav-pills justify-content-end pill-color " id = "pills-tab" role = "tablist">
           <li class="nav-item">
             <Link class="nav-link active" data-toggle="pill" to ="/">
               Home
